@@ -5,14 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "test": "jest",
+    "test:unit": "jest --config=jest-unit.config.js",
+    "test:unit:watch": "jest --config=jest-unit.config.js --watchAll",
+    "test:integration": "jest --config=jest-integration.config.js",
+    "test:integration:watch": "jest --config=jest-integration.config.js --watchAll",
     "test:watch": "jest --watchAll",
     "test:coverage": "jest --coverage",
+    
     "build": "next build",
     "start": "next start"
-  },
-  "jest": {
-    "testEnvironment": "jsdom"
-  
   },
   "dependencies": {
     "@babel/core": "^7.0.0",
