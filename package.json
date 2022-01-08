@@ -9,9 +9,9 @@
     "build": "next build",
     "start": "next start"
   },
-  "jest":{
+  "jest": {
     "testEnvironment": "jsdom"
-},
+  },
   "dependencies": {
     "@tailwindcss/ui": "^0.6.2",
     "jest": "^27.4.7",
@@ -24,6 +24,7 @@
     "@testing-library/dom": "^8.11.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
     "babel-jest": "^27.4.6",
     "jest-dom": "^4.0.0",
     "postcss-flexbugs-fixes": "4.2.1",
