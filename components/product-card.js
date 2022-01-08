@@ -1,9 +1,9 @@
 export default function ProductCard({ product, addToCart }) {
   return (
-    <section data-testId="product-card">
+    <section data-testid="product-card">
       <div className="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
         <div
-          data-testId="image"
+          data-testid="image"
           className="flex items-end justify-end h-56 w-full bg-cover"
           style={{
             backgroundImage: `url(${product.image})`,

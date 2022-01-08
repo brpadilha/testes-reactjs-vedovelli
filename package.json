@@ -6,13 +6,16 @@
     "dev": "next dev",
     "test": "jest",
     "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage",
     "build": "next build",
     "start": "next start"
   },
   "jest": {
     "testEnvironment": "jsdom"
+  
   },
   "dependencies": {
+    "@babel/core": "^7.0.0",
     "@tailwindcss/ui": "^0.6.2",
     "jest": "^27.4.7",
     "next": "10.0.0",
